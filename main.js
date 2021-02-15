@@ -23,7 +23,6 @@ ymaps.ready(function () {
 			searchControlProvider: "yandex#search",
 		}
 	);
-	console.log(placemarkList);
 	for (const key in placemarkList) {
 		// Создаём макет содержимого.
 		const myPlacemark = new ymaps.Placemark(
